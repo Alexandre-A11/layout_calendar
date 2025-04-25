@@ -23,7 +23,7 @@
 
   @for $month_length from 28 through 31 {
     &--month-length-#{$month_length}
-      &__day:nth-child(n + #{$month_length + 1}) {
+      &__day:nth-child(n+#{$month_length + 1}) {
       display: none;
     }
   }
